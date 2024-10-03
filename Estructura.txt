@@ -1,0 +1,42 @@
+my-notes-app/
+│
+├── public/
+│   └── index.html       # HTML principal de la aplicación.
+│
+├── src/
+│   |
+│   ├── components/      # Componentes de la aplicación.
+│   │   ├── Note.jsx            # Componente de una nota individual.
+│   │   ├── NoteList.jsx        # Lista de notas.
+│   │   ├── NoteEditor.jsx      # Formulario para crear/editar notas.
+│   │   ├── ArchivedNotes.jsx   # Lista de notas archivadas.
+│   │   ├── FilterBar.jsx       # Componente para filtrar por categoría.
+│   │   ├── ConfirmationDialog.jsx  # Diálogo de confirmación al eliminar.
+│   │   ├── Login.jsx           # Componente de login para autenticación.
+│   │   └── Header.jsx          # Encabezado con opciones de sesión.
+│   │
+│   ├── context/         # Carpeta para el manejo de estado global (React Context o Redux).
+│   │   └── AuthContext.js     # Contexto para el manejo de autenticación.
+│   │   └── NoteContext.js     # Contexto para el manejo de notas.
+│   │
+│   ├── services/        # Funciones de servicios (API, LocalStorage).
+│   │   └── authService.js     # Servicio para manejar autenticación.
+│   │   └── noteService.js     # Servicio para manejar notas en localStorage.
+│   │
+│   ├── pages/           # Páginas principales (agrupar vistas completas).
+│   │   ├── HomePage.jsx        # Página principal que lista las notas.
+│   │   ├── ArchivedPage.jsx    # Página para ver notas archivadas.
+│   │   └── LoginPage.jsx       # Página de inicio de sesión.
+│   │
+│   ├── styles/          # Estilos globales o específicos de componentes.
+│   │   └── App.css            # Archivo CSS principal para la app.
+│   │
+│   ├── App.jsx          # Componente raíz de la aplicación.
+│   ├── index.js         # Punto de entrada, monta la app en el DOM.
+│   ├── routes.jsx       # Archivo que define las rutas de la app con React Router.
+│   └── setupTests.js    # Configuración opcional para pruebas unitarias.
+│
+├── .gitignore           # Archivos que Git ignorará.
+├── package.json         # Archivo de configuración de dependencias y scripts del proyecto.
+├── README.md            # Documentación del proyecto.
+└── run.sh               # Script para ejecutar la aplicación en Linux/macOS.
