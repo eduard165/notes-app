@@ -1,8 +1,5 @@
 my-notes-app/
-│
-├── public/
-│   └── index.html       # HTML principal de la aplicación.
-│
+|
 ├── src/
 │   |
 │   ├── components/      # Componentes de la aplicación.
@@ -34,9 +31,7 @@ my-notes-app/
 │   ├── App.jsx          # Componente raíz de la aplicación.
 │   ├── index.js         # Punto de entrada, monta la app en el DOM.
 │   ├── routes.jsx       # Archivo que define las rutas de la app con React Router.
-│   └── setupTests.js    # Configuración opcional para pruebas unitarias.
 │
 ├── .gitignore           # Archivos que Git ignorará.
 ├── package.json         # Archivo de configuración de dependencias y scripts del proyecto.
 ├── README.md            # Documentación del proyecto.
-└── run.sh               # Script para ejecutar la aplicación en Linux/macOS.

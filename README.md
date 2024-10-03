@@ -14,11 +14,11 @@ To run this application, you need to have the following installed:
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/eduard165/notes-app.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd note-taking-app
+    cd notes-app
     ```
 3. Run the following command to install the dependencies:
     ```bash
